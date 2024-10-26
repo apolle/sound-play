@@ -49,6 +49,16 @@ volume = 0.1;
 sound.play("file.mp3", volume);
 ```
 
+### Adjusting Speed Rate (Mac only)
+
+```javascript
+/**
+ * 1 = normal | > 1 faster
+ */
+rate = 1.5;
+sound.play("file.mp3", 0.5, rate);
+```
+
 ### Absolute path
 
 ```javascript
